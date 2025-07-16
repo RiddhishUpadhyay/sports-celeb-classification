@@ -1,0 +1,94 @@
+.card-wrapper {
+    margin: 5% 0 ;
+    text-align: center;
+    min-width: 100px;
+    margin-bottom: 10px;
+  }
+
+.card-body {
+  margin-top: 4px !important; /* override mt-4 */
+  padding-top: 0 !important;
+}
+
+
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+  margin-bottom: 2px;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.card-title {
+  letter-spacing: 1px;
+  font-size: 6px;            /* Smaller font size */
+  white-space: nowrap;        /* Prevent line break */
+  overflow: hidden;           /* Prevent overflow */
+  /*text-overflow: ellipsis;    /* Optional: adds "..." if text is too long */
+  text-align: center;         /* Optional: center the text */
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+  margin-bottom: 5px;
+}
+
+.dropzone {
+  border-style: dashed;
+  width: 150px;       /* smaller box */
+  height: 150px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.dropzone img {
+  width: 40px !important;     /* smaller icon */
+  height: 40px !important;
+}
+.dropzone .note {
+  font-size: 0.8rem;
+}
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 10px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 250px;
+  font-size: 6px;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 4px;
+  text-align: left;
+}
+
+#classTable th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#submitBtn {
+  font-size: 6px;
+  padding: 6px 6px;
+  display: block;
+  margin: 0 auto 0 auto; /* center it under dropzone */
+  width: fit-content;
+}
